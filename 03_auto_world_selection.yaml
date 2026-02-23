@@ -1,0 +1,7 @@
+appId: https://kathalaya.website/
+---
+- launchApp
+- tapOn: "Create New Story"
+- tapOn: "Continue without signing in"
+- tapOn: "Auto"
+- assertVisible: "Pick a Friend"

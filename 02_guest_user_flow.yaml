@@ -1,0 +1,10 @@
+appId: https://kathalaya.website/
+---
+
+- launchApp
+- tapOn: "Create New Story"
+- tapOn: "Continue without signing in"
+- tapOn: "Fantasy"  
+- tapOn: "Dinosaur"  
+
+

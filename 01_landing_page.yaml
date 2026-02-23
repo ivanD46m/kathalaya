@@ -1,0 +1,13 @@
+# Test: Landing Page loads correctly
+# Checks that the main page and navigation tab are visible
+
+appId: com.kidsstoryapp  # update this to the actual app ID
+---
+- launchApp
+- assertVisible: "Create New Story"
+- assertVisible: "Explore Stories"
+- assertVisible: "Home"
+- assertVisible: "Explore"
+- assertVisible: "Create"
+- assertVisible: "Stories"
+- assertVisible: "Profile"
