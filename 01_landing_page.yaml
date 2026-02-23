@@ -1,7 +1,4 @@
-# Test: Landing Page loads correctly
-# Checks that the main page and navigation tab are visible
-
-appId: com.kidsstoryapp  # update this to the actual app ID
+appId: https://kathalaya.website/
 ---
 - launchApp
 - assertVisible: "Create New Story"
